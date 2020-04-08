@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background-color: black;
+    background-image: linear-gradient(to left top,#491866 30%,#e92f71);
 }
 
 .currentEvents{
@@ -44,14 +44,16 @@ body{
   transform: scale(1.5,1.5);
 }
 .heading-1{
-    color:red;
+    color:white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 .heading-2{
-    color:red;
+    color:white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 @media (max-width:500px){
     .currentEvents{
